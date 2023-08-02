@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    width: 34vw;
+    background-color:rgb(78, 174, 221);  
+    font-family: 'Times New Roman', Times, serif; 
+    height: 100vh; 
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+     list-style: none;
+     font-size: 30px;
+     padding: 33px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black ;
+    cursor: pointer;
+}
+
+.sidebar nav li a:hover{
+    background-color: white;
+    color : dodgerblue;
+}
+
+.main{
+    background-color: rgb(155, 201, 209) ;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+
+}
+
+.infocontainer{
+    margin: 144px auto ;
+    background-color:rgb(35, 107, 158) ;
+    height: 68vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex ;
+    justify-content: space-around ;
+}
+
+.devpic img{
+    height: 68vh;
+
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hello{
+  font-size: 65px;  
+ 
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.about{
+    font-size: 30px;
+}
+
+.moreabout{
+    font-size: 20px;
+    margin-top: 23px;
+}
+
+.buttons{
+    margin-top: 34px;
+    
+}
+
+.buttons button{
+    padding:9px 14px ;
+    border-radius: 22px;
+    color: white;
+    background-color : dodgerblue;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover{
+    background-color: white;
+    color : dodgerblue;
+
+}
+
+.contactform{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.contactform h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center ;
+    padding: 12px 0
+
+}
+
+.contactform  form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactform  form div input{
+    width: 30vw;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    padding: 5px;
+}
+
+#emailhelp{
+    font-size: 20px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+
+}
+
+.btn{
+    padding:9px 14px ;
+    border-radius: 22px;
+    color: white;
+    background-color : dodgerblue;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color : dodgerblue;
+
+}
+
+.blogitem{
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 23px;
+
+}
+
+p{
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.about h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 12px;
+}
+
+.about p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+     
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: 900;
+
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red ;
+    border: 2px solid black  ;
+}
+
+.hundered{
+    width: 264px;
+}
+
+.fifty{
+    width: 200px;
+}
+
+.tf{
+    width: 75px;
+}
+
